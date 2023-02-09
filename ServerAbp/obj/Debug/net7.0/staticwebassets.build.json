@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cmqBjJjQihixFw8OFv8yQO4TeJuPni0Eq4BkERSlQCI=",
+  "Source": "ServerAbp",
+  "BasePath": "_content/ServerAbp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

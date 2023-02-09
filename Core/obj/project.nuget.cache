@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "pXlLTH4eozA/SZ1xxJFvXSGN6yzzPsjGFhAiJYCDbZmMEXkHVfO+I72c0M1D8P/JTXe7kuWERHs6+ZXEkCD+Bg==",
+  "success": true,
+  "projectFilePath": "/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Core/Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/wujun/.nuget/packages/memorypack/1.9.12/memorypack.1.9.12.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/memorypack.core/1.9.12/memorypack.core.1.9.12.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/memorypack.generator/1.9.12/memorypack.generator.1.9.12.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/supersocket.protobase/2.0.0-beta.13/supersocket.protobase.2.0.0-beta.13.nupkg.sha512"
+  ],
+  "logs": []
+}

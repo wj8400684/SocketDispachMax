@@ -1,0 +1,469 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "MemoryPack/1.9.12": {
+        "type": "package",
+        "dependencies": {
+          "MemoryPack.Core": "1.9.12",
+          "MemoryPack.Generator": "1.9.12"
+        }
+      },
+      "MemoryPack.Core/1.9.12": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/MemoryPack.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/MemoryPack.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MemoryPack.Generator/1.9.12": {
+        "type": "package"
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/3.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.10",
+          "Microsoft.Extensions.Primitives": "3.1.10"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.10": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SuperSocket.Channel/2.0.0-beta.13": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.10",
+          "Microsoft.Extensions.Options": "3.1.10",
+          "SuperSocket.ProtoBase": "2.0.0-beta.13",
+          "System.IO.Pipelines": "4.7.3"
+        },
+        "compile": {
+          "lib/net6.0/SuperSocket.Channel.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/SuperSocket.Channel.dll": {}
+        }
+      },
+      "SuperSocket.Client/2.0.0-beta.13": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.10",
+          "SuperSocket.Channel": "2.0.0-beta.13",
+          "SuperSocket.ProtoBase": "2.0.0-beta.13"
+        },
+        "compile": {
+          "lib/net6.0/SuperSocket.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/SuperSocket.Client.dll": {}
+        }
+      },
+      "SuperSocket.IOCPTcpChannel/2.0.0-beta.13.133": {
+        "type": "package",
+        "dependencies": {
+          "SuperSocket.Channel": "2.0.0-beta.13"
+        },
+        "compile": {
+          "lib/net7.0/SuperSocket.IOCPTcpChannel.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/SuperSocket.IOCPTcpChannel.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SuperSocket.IOCPTcpEasyClient/2.0.0-beta.13.133": {
+        "type": "package",
+        "dependencies": {
+          "SuperSocket.Client": "2.0.0-beta.13",
+          "SuperSocket.IOCPTcpChannel": "2.0.0-beta.13.133"
+        },
+        "compile": {
+          "lib/net7.0/SuperSocket.IOCPTcpEasyClient.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/SuperSocket.IOCPTcpEasyClient.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SuperSocket.ProtoBase/2.0.0-beta.13": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SuperSocket.ProtoBase.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/SuperSocket.ProtoBase.dll": {}
+        }
+      },
+      "System.IO.Pipelines/4.7.3": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MemoryPack": "1.9.12",
+          "SuperSocket.ProtoBase": "2.0.0-beta.13"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MemoryPack/1.9.12": {
+      "sha512": "zD52C5PtUbWvuvNc6x2Eiq25jDAL/cRtsOPG2J+0xfyiUoDyMXDM72Eg0W6LULNqdSTWzQdc+U+RfYj+6RX9Hw==",
+      "type": "package",
+      "path": "memorypack/1.9.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "memorypack.1.9.12.nupkg.sha512",
+        "memorypack.nuspec"
+      ]
+    },
+    "MemoryPack.Core/1.9.12": {
+      "sha512": "pB1dbhrgHEIHDyWKw5bmwN18JvJ9NYkJBnguATbT/IF4OugBvNGMGyvYi4DehwXr9wM2BYEv9ftkvXMLTl3knQ==",
+      "type": "package",
+      "path": "memorypack.core/1.9.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net7.0/MemoryPack.Core.dll",
+        "lib/net7.0/MemoryPack.Core.xml",
+        "lib/netstandard2.1/MemoryPack.Core.dll",
+        "lib/netstandard2.1/MemoryPack.Core.xml",
+        "memorypack.core.1.9.12.nupkg.sha512",
+        "memorypack.core.nuspec"
+      ]
+    },
+    "MemoryPack.Generator/1.9.12": {
+      "sha512": "+N6eM2RBBvBs91MwHi1O7E+SqO7vXJYr8hDCeDMgiQE/RE/UgMPpjWTAfQdllv1rwgbdaTNTV547Qt83cA/KNQ==",
+      "type": "package",
+      "path": "memorypack.generator/1.9.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "analyzers/dotnet/cs/MemoryPack.Generator.dll",
+        "memorypack.generator.1.9.12.nupkg.sha512",
+        "memorypack.generator.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.10": {
+      "sha512": "bhjtAN7Ix5WOAr47RK16Lr1l2eizSBMCYQSavkooZyf6Xdf8XWAYGWsGsPqUFOeeRxzhpRho051rXaLn5wskVw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.10.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.10": {
+      "sha512": "bKHbgzbGsPZbEaExRaJqBz3WQ1GfhMttM23e1nivLJ8HbA3Ad526mW2G2K350q3Dc3HG83I5W8uSZWG4Rv4IpA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.3.1.10.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Options/3.1.10": {
+      "sha512": "CusdV4eIv+CGb9Fy6a+JcRqpcVJREmvFI8eHk3nQ76VLtEAIJpKQY5r5sRSs5w6NevNi2ukdnKleH0YCPudFZQ==",
+      "type": "package",
+      "path": "microsoft.extensions.options/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.3.1.10.nupkg.sha512",
+        "microsoft.extensions.options.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/3.1.10": {
+      "sha512": "YDuQS3BeaVY6PCWUm5f6qFTYsxhwntQrcfwUzbohU/0rZBL5XI+UsD5SgggHKHX+rFY4laaT428q608Sw/mDsw==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.3.1.10.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
+      ]
+    },
+    "SuperSocket.Channel/2.0.0-beta.13": {
+      "sha512": "90hFO/q0V43cnWeel5rV19bq9fvc/BiNPjq2ftU5xIn+6KhDzUf6/6ZvXfK6/SUQZN6505b80CQi6Wj63TvzUw==",
+      "type": "package",
+      "path": "supersocket.channel/2.0.0-beta.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/SuperSocket.Channel.dll",
+        "lib/net6.0/SuperSocket.Channel.dll",
+        "supersocket.channel.2.0.0-beta.13.nupkg.sha512",
+        "supersocket.channel.nuspec"
+      ]
+    },
+    "SuperSocket.Client/2.0.0-beta.13": {
+      "sha512": "s2UvP38r+J5XQPNDlI6oYQmoEpNSaqglgeeTN3itJp9mCMN6/Jc/otl3tZKgAS8y5hDVLH4rUQTMt3pAXfM0pw==",
+      "type": "package",
+      "path": "supersocket.client/2.0.0-beta.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/SuperSocket.Client.dll",
+        "lib/net6.0/SuperSocket.Client.dll",
+        "supersocket.client.2.0.0-beta.13.nupkg.sha512",
+        "supersocket.client.nuspec"
+      ]
+    },
+    "SuperSocket.IOCPTcpChannel/2.0.0-beta.13.133": {
+      "sha512": "8dxfS8oqQU07rNpNi5O9ujZPyk0UFj3SHiuZfoUJYSp1vZFep5OhfR+d4L7MlxlYlE997m9N219h4AajVct/Yw==",
+      "type": "package",
+      "path": "supersocket.iocptcpchannel/2.0.0-beta.13.133",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/SuperSocket.IOCPTcpChannel.dll",
+        "lib/net6.0/SuperSocket.IOCPTcpChannel.pdb",
+        "lib/net7.0/SuperSocket.IOCPTcpChannel.dll",
+        "lib/net7.0/SuperSocket.IOCPTcpChannel.pdb",
+        "supersocket.iocptcpchannel.2.0.0-beta.13.133.nupkg.sha512",
+        "supersocket.iocptcpchannel.nuspec"
+      ]
+    },
+    "SuperSocket.IOCPTcpEasyClient/2.0.0-beta.13.133": {
+      "sha512": "Oj3H7RqMz0QNpvB57EC6FEW0ciewyB9NhPpcMwJ8oheS4A/PMyypdhw5DXuEACWJKf3DJzHh7NWUHWu+BICYFQ==",
+      "type": "package",
+      "path": "supersocket.iocptcpeasyclient/2.0.0-beta.13.133",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/SuperSocket.IOCPTcpEasyClient.dll",
+        "lib/net6.0/SuperSocket.IOCPTcpEasyClient.pdb",
+        "lib/net7.0/SuperSocket.IOCPTcpEasyClient.dll",
+        "lib/net7.0/SuperSocket.IOCPTcpEasyClient.pdb",
+        "supersocket.iocptcpeasyclient.2.0.0-beta.13.133.nupkg.sha512",
+        "supersocket.iocptcpeasyclient.nuspec"
+      ]
+    },
+    "SuperSocket.ProtoBase/2.0.0-beta.13": {
+      "sha512": "DCiCgKM3g9a9SNjSVeVLb5e0ML/Aq3BgdpKW2owD29GYSRZEp2j5MM63qYBr+bS59W5CQGg+bZVuI7vOgjbjZA==",
+      "type": "package",
+      "path": "supersocket.protobase/2.0.0-beta.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/SuperSocket.ProtoBase.dll",
+        "lib/net6.0/SuperSocket.ProtoBase.dll",
+        "supersocket.protobase.2.0.0-beta.13.nupkg.sha512",
+        "supersocket.protobase.nuspec"
+      ]
+    },
+    "System.IO.Pipelines/4.7.3": {
+      "sha512": "zykThu9scJyg2Yeg27GMZCbjzniIsmjtNP5x6kQCd/8rEeKXRy20fP2NOMS7xQ+0pS/E85LZQA+K1aoQLxiUdw==",
+      "type": "package",
+      "path": "system.io.pipelines/4.7.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.IO.Pipelines.dll",
+        "lib/net461/System.IO.Pipelines.xml",
+        "lib/netcoreapp3.0/System.IO.Pipelines.dll",
+        "lib/netcoreapp3.0/System.IO.Pipelines.xml",
+        "lib/netstandard1.3/System.IO.Pipelines.dll",
+        "lib/netstandard1.3/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "ref/net461/System.IO.Pipelines.dll",
+        "ref/net461/System.IO.Pipelines.xml",
+        "ref/netcoreapp2.0/System.IO.Pipelines.dll",
+        "ref/netcoreapp2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.4.7.3.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Core >= 1.0.0",
+      "SuperSocket.Client >= 2.0.0-beta.13",
+      "SuperSocket.IOCPTcpEasyClient >= 2.0.0-beta.13.133"
+    ]
+  },
+  "packageFolders": {
+    "/Users/wujun/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Admin/Admin.csproj",
+      "projectName": "Admin",
+      "projectPath": "/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Admin/Admin.csproj",
+      "packagesPath": "/Users/wujun/.nuget/packages/",
+      "outputPath": "/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Admin/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/wujun/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "/Users/wujun/Desktop/MyCode/dotnet/nuget": {},
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/AvaloniaUI/AvaloniaUI/_packaging/avalonia-nightly/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Core/Core.csproj": {
+              "projectPath": "/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Core/Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "SuperSocket.Client": {
+            "target": "Package",
+            "version": "[2.0.0-beta.13, )"
+          },
+          "SuperSocket.IOCPTcpEasyClient": {
+            "target": "Package",
+            "version": "[2.0.0-beta.13.133, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

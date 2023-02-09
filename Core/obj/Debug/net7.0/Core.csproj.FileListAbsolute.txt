@@ -1,0 +1,12 @@
+/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Core/bin/Debug/net7.0/Core.deps.json
+/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Core/bin/Debug/net7.0/Core.dll
+/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Core/bin/Debug/net7.0/Core.pdb
+/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Core/obj/Debug/net7.0/Core.csproj.AssemblyReference.cache
+/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Core/obj/Debug/net7.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Core/obj/Debug/net7.0/Core.AssemblyInfoInputs.cache
+/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Core/obj/Debug/net7.0/Core.AssemblyInfo.cs
+/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Core/obj/Debug/net7.0/Core.csproj.CoreCompileInputs.cache
+/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Core/obj/Debug/net7.0/Core.dll
+/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Core/obj/Debug/net7.0/refint/Core.dll
+/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Core/obj/Debug/net7.0/Core.pdb
+/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Core/obj/Debug/net7.0/ref/Core.dll

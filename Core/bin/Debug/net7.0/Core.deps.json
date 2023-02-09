@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Core/1.0.0": {
+        "dependencies": {
+          "MemoryPack": "1.9.12",
+          "SuperSocket.ProtoBase": "2.0.0-beta.13"
+        },
+        "runtime": {
+          "Core.dll": {}
+        }
+      },
+      "MemoryPack/1.9.12": {
+        "dependencies": {
+          "MemoryPack.Core": "1.9.12",
+          "MemoryPack.Generator": "1.9.12"
+        }
+      },
+      "MemoryPack.Core/1.9.12": {
+        "runtime": {
+          "lib/net7.0/MemoryPack.Core.dll": {
+            "assemblyVersion": "1.9.12.0",
+            "fileVersion": "1.9.12.0"
+          }
+        }
+      },
+      "MemoryPack.Generator/1.9.12": {},
+      "SuperSocket.ProtoBase/2.0.0-beta.13": {
+        "runtime": {
+          "lib/net6.0/SuperSocket.ProtoBase.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MemoryPack/1.9.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zD52C5PtUbWvuvNc6x2Eiq25jDAL/cRtsOPG2J+0xfyiUoDyMXDM72Eg0W6LULNqdSTWzQdc+U+RfYj+6RX9Hw==",
+      "path": "memorypack/1.9.12",
+      "hashPath": "memorypack.1.9.12.nupkg.sha512"
+    },
+    "MemoryPack.Core/1.9.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pB1dbhrgHEIHDyWKw5bmwN18JvJ9NYkJBnguATbT/IF4OugBvNGMGyvYi4DehwXr9wM2BYEv9ftkvXMLTl3knQ==",
+      "path": "memorypack.core/1.9.12",
+      "hashPath": "memorypack.core.1.9.12.nupkg.sha512"
+    },
+    "MemoryPack.Generator/1.9.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+N6eM2RBBvBs91MwHi1O7E+SqO7vXJYr8hDCeDMgiQE/RE/UgMPpjWTAfQdllv1rwgbdaTNTV547Qt83cA/KNQ==",
+      "path": "memorypack.generator/1.9.12",
+      "hashPath": "memorypack.generator.1.9.12.nupkg.sha512"
+    },
+    "SuperSocket.ProtoBase/2.0.0-beta.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DCiCgKM3g9a9SNjSVeVLb5e0ML/Aq3BgdpKW2owD29GYSRZEp2j5MM63qYBr+bS59W5CQGg+bZVuI7vOgjbjZA==",
+      "path": "supersocket.protobase/2.0.0-beta.13",
+      "hashPath": "supersocket.protobase.2.0.0-beta.13.nupkg.sha512"
+    }
+  }
+}

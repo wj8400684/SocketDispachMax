@@ -1,0 +1,250 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Work/1.0.0": {
+        "dependencies": {
+          "Core": "1.0.0",
+          "SuperSocket.Client": "2.0.0-beta.13",
+          "SuperSocket.IOCPTcpEasyClient": "2.0.0-beta.13.133"
+        },
+        "runtime": {
+          "Work.dll": {}
+        }
+      },
+      "MemoryPack/1.9.12": {
+        "dependencies": {
+          "MemoryPack.Core": "1.9.12",
+          "MemoryPack.Generator": "1.9.12"
+        }
+      },
+      "MemoryPack.Core/1.9.12": {
+        "runtime": {
+          "lib/net7.0/MemoryPack.Core.dll": {
+            "assemblyVersion": "1.9.12.0",
+            "fileVersion": "1.9.12.0"
+          }
+        }
+      },
+      "MemoryPack.Generator/1.9.12": {},
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.10": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "3.1.10.0",
+            "fileVersion": "3.100.1020.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.10": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "3.1.10.0",
+            "fileVersion": "3.100.1020.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/3.1.10": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.10",
+          "Microsoft.Extensions.Primitives": "3.1.10"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "3.1.10.0",
+            "fileVersion": "3.100.1020.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.10": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "3.1.10.0",
+            "fileVersion": "3.100.1020.51904"
+          }
+        }
+      },
+      "SuperSocket.Channel/2.0.0-beta.13": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.10",
+          "Microsoft.Extensions.Options": "3.1.10",
+          "SuperSocket.ProtoBase": "2.0.0-beta.13",
+          "System.IO.Pipelines": "4.7.3"
+        },
+        "runtime": {
+          "lib/net6.0/SuperSocket.Channel.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "SuperSocket.Client/2.0.0-beta.13": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.10",
+          "SuperSocket.Channel": "2.0.0-beta.13",
+          "SuperSocket.ProtoBase": "2.0.0-beta.13"
+        },
+        "runtime": {
+          "lib/net6.0/SuperSocket.Client.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "SuperSocket.IOCPTcpChannel/2.0.0-beta.13.133": {
+        "dependencies": {
+          "SuperSocket.Channel": "2.0.0-beta.13"
+        },
+        "runtime": {
+          "lib/net7.0/SuperSocket.IOCPTcpChannel.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SuperSocket.IOCPTcpEasyClient/2.0.0-beta.13.133": {
+        "dependencies": {
+          "SuperSocket.Client": "2.0.0-beta.13",
+          "SuperSocket.IOCPTcpChannel": "2.0.0-beta.13.133"
+        },
+        "runtime": {
+          "lib/net7.0/SuperSocket.IOCPTcpEasyClient.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SuperSocket.ProtoBase/2.0.0-beta.13": {
+        "runtime": {
+          "lib/net6.0/SuperSocket.ProtoBase.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "System.IO.Pipelines/4.7.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {
+            "assemblyVersion": "4.0.2.2",
+            "fileVersion": "4.700.20.47203"
+          }
+        }
+      },
+      "Core/1.0.0": {
+        "dependencies": {
+          "MemoryPack": "1.9.12",
+          "SuperSocket.ProtoBase": "2.0.0-beta.13"
+        },
+        "runtime": {
+          "Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Work/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MemoryPack/1.9.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zD52C5PtUbWvuvNc6x2Eiq25jDAL/cRtsOPG2J+0xfyiUoDyMXDM72Eg0W6LULNqdSTWzQdc+U+RfYj+6RX9Hw==",
+      "path": "memorypack/1.9.12",
+      "hashPath": "memorypack.1.9.12.nupkg.sha512"
+    },
+    "MemoryPack.Core/1.9.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pB1dbhrgHEIHDyWKw5bmwN18JvJ9NYkJBnguATbT/IF4OugBvNGMGyvYi4DehwXr9wM2BYEv9ftkvXMLTl3knQ==",
+      "path": "memorypack.core/1.9.12",
+      "hashPath": "memorypack.core.1.9.12.nupkg.sha512"
+    },
+    "MemoryPack.Generator/1.9.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+N6eM2RBBvBs91MwHi1O7E+SqO7vXJYr8hDCeDMgiQE/RE/UgMPpjWTAfQdllv1rwgbdaTNTV547Qt83cA/KNQ==",
+      "path": "memorypack.generator/1.9.12",
+      "hashPath": "memorypack.generator.1.9.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bhjtAN7Ix5WOAr47RK16Lr1l2eizSBMCYQSavkooZyf6Xdf8XWAYGWsGsPqUFOeeRxzhpRho051rXaLn5wskVw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.10",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.10.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bKHbgzbGsPZbEaExRaJqBz3WQ1GfhMttM23e1nivLJ8HbA3Ad526mW2G2K350q3Dc3HG83I5W8uSZWG4Rv4IpA==",
+      "path": "microsoft.extensions.logging.abstractions/3.1.10",
+      "hashPath": "microsoft.extensions.logging.abstractions.3.1.10.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/3.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CusdV4eIv+CGb9Fy6a+JcRqpcVJREmvFI8eHk3nQ76VLtEAIJpKQY5r5sRSs5w6NevNi2ukdnKleH0YCPudFZQ==",
+      "path": "microsoft.extensions.options/3.1.10",
+      "hashPath": "microsoft.extensions.options.3.1.10.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/3.1.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YDuQS3BeaVY6PCWUm5f6qFTYsxhwntQrcfwUzbohU/0rZBL5XI+UsD5SgggHKHX+rFY4laaT428q608Sw/mDsw==",
+      "path": "microsoft.extensions.primitives/3.1.10",
+      "hashPath": "microsoft.extensions.primitives.3.1.10.nupkg.sha512"
+    },
+    "SuperSocket.Channel/2.0.0-beta.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-90hFO/q0V43cnWeel5rV19bq9fvc/BiNPjq2ftU5xIn+6KhDzUf6/6ZvXfK6/SUQZN6505b80CQi6Wj63TvzUw==",
+      "path": "supersocket.channel/2.0.0-beta.13",
+      "hashPath": "supersocket.channel.2.0.0-beta.13.nupkg.sha512"
+    },
+    "SuperSocket.Client/2.0.0-beta.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s2UvP38r+J5XQPNDlI6oYQmoEpNSaqglgeeTN3itJp9mCMN6/Jc/otl3tZKgAS8y5hDVLH4rUQTMt3pAXfM0pw==",
+      "path": "supersocket.client/2.0.0-beta.13",
+      "hashPath": "supersocket.client.2.0.0-beta.13.nupkg.sha512"
+    },
+    "SuperSocket.IOCPTcpChannel/2.0.0-beta.13.133": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8dxfS8oqQU07rNpNi5O9ujZPyk0UFj3SHiuZfoUJYSp1vZFep5OhfR+d4L7MlxlYlE997m9N219h4AajVct/Yw==",
+      "path": "supersocket.iocptcpchannel/2.0.0-beta.13.133",
+      "hashPath": "supersocket.iocptcpchannel.2.0.0-beta.13.133.nupkg.sha512"
+    },
+    "SuperSocket.IOCPTcpEasyClient/2.0.0-beta.13.133": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Oj3H7RqMz0QNpvB57EC6FEW0ciewyB9NhPpcMwJ8oheS4A/PMyypdhw5DXuEACWJKf3DJzHh7NWUHWu+BICYFQ==",
+      "path": "supersocket.iocptcpeasyclient/2.0.0-beta.13.133",
+      "hashPath": "supersocket.iocptcpeasyclient.2.0.0-beta.13.133.nupkg.sha512"
+    },
+    "SuperSocket.ProtoBase/2.0.0-beta.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DCiCgKM3g9a9SNjSVeVLb5e0ML/Aq3BgdpKW2owD29GYSRZEp2j5MM63qYBr+bS59W5CQGg+bZVuI7vOgjbjZA==",
+      "path": "supersocket.protobase/2.0.0-beta.13",
+      "hashPath": "supersocket.protobase.2.0.0-beta.13.nupkg.sha512"
+    },
+    "System.IO.Pipelines/4.7.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zykThu9scJyg2Yeg27GMZCbjzniIsmjtNP5x6kQCd/8rEeKXRy20fP2NOMS7xQ+0pS/E85LZQA+K1aoQLxiUdw==",
+      "path": "system.io.pipelines/4.7.3",
+      "hashPath": "system.io.pipelines.4.7.3.nupkg.sha512"
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

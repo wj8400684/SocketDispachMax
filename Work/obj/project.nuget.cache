@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "WSfABZj2OzARKeEJ+2MjxODwzqNb2pW0XwLJNtbseGtveB+sQ05fofxZubvKWfdxlzZRqRgxJspsdACD6+Z7Vw==",
+  "success": true,
+  "projectFilePath": "/Users/wujun/Desktop/MyCode/dotnet/git/SocketDispachMax/Work/Work.csproj",
+  "expectedPackageFiles": [
+    "/Users/wujun/.nuget/packages/memorypack/1.9.12/memorypack.1.9.12.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/memorypack.core/1.9.12/memorypack.core.1.9.12.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/memorypack.generator/1.9.12/memorypack.generator.1.9.12.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.10/microsoft.extensions.dependencyinjection.abstractions.3.1.10.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.10/microsoft.extensions.logging.abstractions.3.1.10.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/microsoft.extensions.options/3.1.10/microsoft.extensions.options.3.1.10.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/microsoft.extensions.primitives/3.1.10/microsoft.extensions.primitives.3.1.10.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/supersocket.channel/2.0.0-beta.13/supersocket.channel.2.0.0-beta.13.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/supersocket.client/2.0.0-beta.13/supersocket.client.2.0.0-beta.13.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/supersocket.iocptcpchannel/2.0.0-beta.13.133/supersocket.iocptcpchannel.2.0.0-beta.13.133.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/supersocket.iocptcpeasyclient/2.0.0-beta.13.133/supersocket.iocptcpeasyclient.2.0.0-beta.13.133.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/supersocket.protobase/2.0.0-beta.13/supersocket.protobase.2.0.0-beta.13.nupkg.sha512",
+    "/Users/wujun/.nuget/packages/system.io.pipelines/4.7.3/system.io.pipelines.4.7.3.nupkg.sha512"
+  ],
+  "logs": []
+}
